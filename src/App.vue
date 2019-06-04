@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <Datetitle />
+    <div id="js-today">
+      <Datetitle />
+      <Story />
+    </div>
     <Painting />
-    <Story />
   </div>
 </template>
 
