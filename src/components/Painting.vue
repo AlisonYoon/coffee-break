@@ -1,0 +1,5 @@
+<template>
+   <div>
+      <img src="https://dummyimage.com/600x400/000/fff" alt="">
+   </div>
+</template>
