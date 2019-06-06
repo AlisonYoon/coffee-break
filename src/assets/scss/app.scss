@@ -1,14 +1,29 @@
-@import 'node_modules/reset-css/sass/_reset';
+@import "node_modules/reset-css/sass/_reset";
 
 body {
-   background: rgb(151,212,221);
-   background: linear-gradient(180deg, rgba(151,212,221,1) 0%, rgba(218,197,160,1) 100%);
-   min-height: 100vh;
-   position: relative;
-   #app {
-      #js-today {
-         display: grid;
-         grid-template-columns: 1fr 170px;
+  background: rgb(151, 212, 221);
+  background: linear-gradient(
+    180deg,
+    rgba(151, 212, 221, 1) 0%,
+    rgba(218, 197, 160, 1) 100%
+  );
+  min-height: 100vh;
+  position: relative;
+  #app {
+    #js-today {
+      display: grid;
+      grid-template-columns: 1fr 170px;
+    }
+    #js-paintingframe {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      svg,
+      img {
+        position: absolute;
       }
-   }
+    }
+  }
 }
